@@ -1,5 +1,9 @@
 # The main purpose of this project is to create an NPM package from a React component then publish it
 
+## If you want to have your own NPM package using this setup:
+- Make sure to update the ***name*** of the package inside **package.json** file to a unique name
+- If you want to make updates to your library make sure to update the ***version*** inside **package.json** file
+
 ## It uses 2 important libraries:
 
 ### storybook:
@@ -31,8 +35,10 @@
  
 ### Publish:
   
-- Sign into your npm account:
-- Publish your package: npm publish
+- Sign in to your npm account:
+    **npm login**
+- Publish your package: 
+    **npm publish**
 
 ## Available Scripts
 

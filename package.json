@@ -2,7 +2,8 @@
   "name": "react-floating-button",
   "version": "1.0.0",
   "description": "Hover over the floating button to see menu buttons",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
