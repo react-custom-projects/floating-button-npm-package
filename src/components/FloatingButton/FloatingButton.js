@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef, Fragment} from 'react';
 //styles
-import '../styles.scss';
+import '../../styles.scss';
 
 const useOutsideClick = (ref, callback) => {
     const handleClick = (e) => {

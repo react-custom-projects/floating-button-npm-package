@@ -1,7 +1,7 @@
 import React from "react";
 import {storiesOf} from "@storybook/react";
 //components
-import {FloatingButton} from "../components/FloatingButton";
+import {FloatingButton} from "../components/FloatingButton/FloatingButton";
 
 const stories = storiesOf('App Test', module);
 

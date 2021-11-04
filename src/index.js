@@ -1,1 +1,1 @@
-import {FloatingButton} from './components/FloatingButton';
+export * from './components/FloatingButton';
