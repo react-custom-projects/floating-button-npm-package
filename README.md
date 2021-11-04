@@ -27,7 +27,7 @@
  
 ### Build:
  
-- Create 
+- Run ***yarn build-lib*** command
  
 ### Publish:
   
@@ -46,3 +46,7 @@ It will open [http://localhost:6006](http://localhost:6006) automatically in the
 ### `yarn build-storybook`
 
 Builds the storybook for production.
+
+### `yarn build-lib`
+
+Builds your npm package using rollup.
