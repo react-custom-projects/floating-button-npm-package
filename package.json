@@ -1,0 +1,46 @@
+{
+  "name": "react-floating-button",
+  "version": "1.0.0",
+  "description": "Hover over the floating button to see menu buttons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-custom-projects/floating-button-npm-package.git"
+  },
+  "keywords": [
+    "react",
+    "floating",
+    "button"
+  ],
+  "author": "Adam Morsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-custom-projects/floating-button-npm-package/issues"
+  },
+  "homepage": "https://github.com/react-custom-projects/floating-button-npm-package#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.3.12",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^5.2.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.43.4",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,36 @@
+html, body, #app {
+  height: 100%;
+}
+
+.toggle-nav {
+  position: fixed;
+  z-index: 10;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  transition: all 0.2s ease;
+
+  button {
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 13px;
+    position: absolute;
+    opacity: 0.9;
+
+    &.main-button {
+      z-index: 20;
+    }
+
+    &.sub-button {
+      opacity: 0;
+      background-color: #d41672;
+      color: #ffffff;
+    }
+  }
+}
