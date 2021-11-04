@@ -9,11 +9,13 @@
 ### storybook:
 
 - It allows you to create UI components in isolation.
+- It will not be part of your NPM package.
 - Documentations link: [storybook](https://storybook.js.org/)
 
 ### rollup.js:
 
 - It's a bundler tool similar to webpack but much easier.
+- It will not be part of your NPM package.
 - Documentations link: [rollupjs](https://rollupjs.org/guide/en/)
 
 ## Create, check, build and publish a component:
