@@ -1,6 +1,6 @@
 {
   "name": "react-floating-button",
-  "version": "2.0.3",
+  "version": "2.0.7",
   "description": "Hover over the floating button to see menu buttons",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

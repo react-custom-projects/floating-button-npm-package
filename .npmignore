@@ -1,10 +1,6 @@
-# unnecessary directories and files for the package
 node_modules/
 .storybook/
-src/stories/
-src/components/
-src/customHooks/
-src/index.js
+src/
 
 # verdaccio private registry directory
 storage/
@@ -14,6 +10,6 @@ storage/
 .vscode
 debug.log
 
-#npmrc because i'm storing my font awesome token inside it
+#npmrc because i'm using it to specify the link of my private registry
 .npmrc
 

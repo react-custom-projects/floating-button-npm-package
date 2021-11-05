@@ -1,3 +1,4 @@
+import path from 'path'
 import babel from 'rollup-plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
 import external from 'rollup-plugin-peer-deps-external';
@@ -22,6 +23,8 @@ export default [
             postcss({
                 plugins: [],
                 minimize: true,
+                // Or with custom file name
+                extract: path.resolve('dist/styles.css')
             }),
             babel({
                 exclude: 'node_modules/**',
