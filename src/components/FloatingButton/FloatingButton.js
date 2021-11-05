@@ -1,39 +1,9 @@
-import React, {useState, useEffect, useRef, Fragment} from 'react';
+import React, {useState, useRef, Fragment} from 'react';
 //styles
 import '../../styles.scss';
-
-const useOutsideClick = (ref, callback) => {
-    const handleClick = (e) => {
-        if (ref.current && !ref.current.contains(e.target)) {
-            callback();
-        }
-    };
-
-    useEffect(() => {
-        document.addEventListener('click', handleClick);
-
-        return () => {
-            document.removeEventListener('click', handleClick);
-        };
-    });
-};
-
-const useTouchScreenDetect = () => {
-    const isSSR = typeof window === 'undefined',
-        [isTouchScreen, setIsTouchScreen] = useState(false);
-
-    useEffect(() => {
-        if (!isSSR) {
-            setIsTouchScreen(
-                'ontouchstart' in document.documentElement ||
-                navigator.maxTouchPoints > 0 ||
-                navigator.msMaxTouchPoints > 0
-            );
-        }
-    }, [isTouchScreen, isSSR]);
-
-    return isTouchScreen;
-};
+//custom hooks
+import useOutsideClick from "../../customHooks/UseOutsideClick";
+import useTouchScreenDetect from "../../customHooks/UseTouchScreenDetect";
 
 export const FloatingButton = ({ location, buttons, mainButtonIcon }) => {
     const [isHover, setIsHover] = useState(false),

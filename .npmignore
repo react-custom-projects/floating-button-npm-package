@@ -1,0 +1,19 @@
+# unnecessary directories and files for the package
+node_modules/
+.storybook/
+src/stories/
+src/components/
+src/customHooks/
+src/index.js
+
+# verdaccio private registry directory
+storage/
+
+# idea folder which is the IDE setting files
+.idea
+.vscode
+debug.log
+
+#npmrc because i'm storing my font awesome token inside it
+.npmrc
+
