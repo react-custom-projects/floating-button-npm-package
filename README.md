@@ -30,7 +30,7 @@
 ### Check:
  
 - Create a new story for your component in **stories** directory following the instructions on **storybook** site.
-- Run storybook for development:
+- Run storybook for development:<br>
     `yarn storybook`
  
 ### Build:
@@ -42,9 +42,9 @@
 - Build your package:<br>
     `yarn build-lib`
 - Sign in to your npm account:<br>
-    **npm login**
+    `npm login`
 - Publish your package:<br>
-    **npm publish**
+    `npm publish`
 
 ## Available Scripts
 
