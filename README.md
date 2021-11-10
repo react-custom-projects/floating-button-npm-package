@@ -37,15 +37,11 @@
  
 ### Publish:
 
-- Use ***commitizen*** to add and commit your changes to ***git***:<br>
-    `yarn commit`
-- Push your changes to git:<br>
-    `git push`
 - Build your package:<br>
     `yarn build-lib`
 - Sign in to your npm account:<br>
     **npm login**
-- Publish your package: 
+- Publish your package:<br>
     **npm publish**
 
 ## Available Scripts
