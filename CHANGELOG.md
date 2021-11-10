@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.2](https://github.com/react-custom-projects/floating-button-npm-package/compare/v2.1.1...v2.1.2) (2021-11-10)
+
+
+### Bug Fixes
+
+* **floatingbutton.js:** add comment ([f89d807](https://github.com/react-custom-projects/floating-button-npm-package/commit/f89d8077878eb175bca21c14ce656fa3fa54bb85))
+
 ### [2.1.1](https://github.com/react-custom-projects/floating-button-npm-package/compare/v2.1.0...v2.1.1) (2021-11-10)
 
 
