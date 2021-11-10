@@ -1,6 +1,6 @@
 {
   "name": "react-floating-button",
-  "version": "2.0.7",
+  "version": "2.1.0",
   "description": "Hover over the floating button to see menu buttons",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "commit": "cz",
+    "release": "standard-version",
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c"
   },
@@ -49,6 +50,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "sass": "^1.43.4",
     "sass-loader": "^10.1.1",
+    "standard-version": "^9.3.2",
     "style-loader": "^2.0.0"
   },
   "peerDependencies": {
