@@ -85,6 +85,7 @@ export const FloatingButton = ({ location, buttons, mainButtonIcon }) => {
         }
     };
 
+    //add comment
     // (x, y) = (r * cos(θ), r * sin(θ))
     const setButtonPosition = (index) => {
         switch (location) {
