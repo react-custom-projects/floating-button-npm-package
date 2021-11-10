@@ -59,7 +59,8 @@ It will open [http://localhost:6006](http://localhost:6006) automatically in the
 
 ### `yarn commit`
 
-Add and commit your changes to git with commit messages which is used to add the correct package version.
+- Add and commit your changes to git with commit messages which is used to add the correct package version.
+- Pumps the package version using ***standard-version***
 
 ### `yarn build-storybook`
 
@@ -67,4 +68,4 @@ Builds the storybook for production.
 
 ### `yarn build-lib`
 
-Pumps the package version using ***standard-version*** and builds your npm package using ***rollup***.
+Builds your npm package using ***rollup***.

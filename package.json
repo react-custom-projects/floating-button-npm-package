@@ -6,9 +6,9 @@
   "module": "dist/index.es.js",
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "commit": "git add . && cz",
+    "commit": "git add . && cz && standard-version",
     "build-storybook": "build-storybook",
-    "build-lib": "standard-version && rollup -c"
+    "build-lib": "rollup -c"
   },
   "repository": {
     "type": "git",
