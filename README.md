@@ -36,8 +36,14 @@
 - Run ***yarn build-lib*** command
  
 ### Publish:
-  
-- Sign in to your npm account:
+
+- Use ***commitizen*** to add and commit your changes to ***git***:<br>
+    `yarn commit`
+- Push your changes to git:<br>
+    `git push`
+- Build your package:<br>
+    `yarn build-lib`
+- Sign in to your npm account:<br>
     **npm login**
 - Publish your package: 
     **npm publish**
@@ -51,10 +57,14 @@ In the project directory, you can run:
 Runs the storybook in development mode <br>
 It will open [http://localhost:6006](http://localhost:6006) automatically in the browser to see your stories.
 
+### `yarn commit`
+
+Add and commit your changes to git with commit messages which is used to add the correct package version.
+
 ### `yarn build-storybook`
 
 Builds the storybook for production.
 
 ### `yarn build-lib`
 
-Builds your npm package using rollup.
+Pumps the package version using ***standard-version*** and builds your npm package using ***rollup***.
