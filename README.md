@@ -29,7 +29,9 @@
  
 ### Check:
  
-- Create a new story for your component in **stories** directory and follow the instructions on **storybook** site.
+- Create a new story for your component in **stories** directory following the instructions on **storybook** site.
+- Run storybook for development:
+    `yarn storybook`
  
 ### Build:
  
